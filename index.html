@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="tailwind.css">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <style>
+    .footer { font-size: 11px; text-align: center; }
+    .footer a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body class="bg-darkCyan font-sans">
+
+  <div class="main">
+
+    <div id="card" class="z-10 relative flex flex-col justify-center mx-auto my-40 md:my-64 w-5/6 md:w-2/12 rounded-lg z-10 bg-white shadow-2xl">
+      
+      <div id="card-header">
+        <img src="/images/bg-pattern-card.svg" alt="pattern background" class="rounded-t-lg">
+      </div>
+
+      <div id="card-body">
+        <img src="/images/image-victor.jpg" alt="profile picture" class="rounded-full ring-8 ring-white mx-auto -mt-12 text-center">
+        <div class="py-5">
+          <h1 id="name" class="text-center text-darkGrayishBlue text-lg font-bold">Victor Crest <span class="font-normal text-darkGray">26</span></h1>
+          <p id="city" class="text-center text-darkGray">London</p>
+        </div>
+      </div>
+
+      <hr class="text-darkGray p-1">
+
+      <div id="card-info" class="flex flex-row justify-around text-center p-5">
+
+        <div>
+          <p class="font-bold text-lg">80K</p>
+          <p class="text-darkGray text-xs tracking-widest">Followers</p>
+        </div>
+
+        <div>
+          <p class="font-bold text-lg">803K</p>
+          <p class="text-darkGray text-xs tracking-widest">Likes</p>
+        </div>
+
+        <div>
+          <p class="font-bold text-lg">1.4K</p>
+          <p class="text-darkGray text-xs tracking-widest">Photos</p>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div id="attribution" class="footer z-10">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/alivsaffari/">Ali Saffari</a>.
+    </div>
+
+    <div id="circles">
+      <img src="/images/bg-pattern-top.svg" alt="circle background" class="z-0 fixed -left-80 -top-80 opacity-70 transform scale-200 md:scale-100">
+      <img src="/images/bg-pattern-bottom.svg" alt="circle background" class="z-0 fixed -right-80 -bottom-44 md:-right-40 md:-bottom-96 opacity-70 transform scale-200 md:scale-100">
+    </div>
+
+  </div>
+
+</body>
+</html>
