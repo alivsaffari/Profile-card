@@ -24,7 +24,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/mobile-first-with-tailwind-css-zKKYwo62g)
 - Live Site URL: [Live site](https://profile-card-alivsaffari.vercel.app/)
 
 ## My process
